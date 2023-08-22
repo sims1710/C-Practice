@@ -15,9 +15,6 @@ int declareVariable() {
  printf("Student's Total Fees: $%3.2f\n", studentFeeTotal);
  printf("Student's Grade: %c\n", studentGradeLetter);
 }
-
-#include <stdio.h>
-
 int variableInPrint() {
   
  int ageLearnedToRide = 5;
@@ -38,8 +35,6 @@ int initialiseVariable() {
   printf("Your Favorite Digit is: %c\n", favDigit);
   printf("You expect to pay $%.2f for a candy bar.\n", costOfCandyBar);
 }
-
-#include <stdio.h>
 
 int updatingVariables() {
   
