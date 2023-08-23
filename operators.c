@@ -26,3 +26,14 @@ int modulo() {
 
   printf("You started on the 1st (0) day of the week, went %d days from this, so it is now the %d day of the week\n", daysThatPass, endingDayOfWeek);
 }
+
+int incrementAndDecrement() {
+  int n = 13;
+  int m = 10;
+
+  m--;
+  n++;
+  
+  printf("m = %d\n", m);
+  printf("n = %d\n", n);
+}
