@@ -37,3 +37,14 @@ int incrementAndDecrement() {
   printf("m = %d\n", m);
   printf("n = %d\n", n);
 }
+
+int assignment() {
+  
+  int timesServerCrashed = 5;
+  double losses = 500.95;
+
+  losses *= timesServerCrashed;
+  losses /= 2;
+
+  printf("Total Losses: $%.2f\n", losses);
+}
