@@ -16,3 +16,13 @@ int intro() {
   printf("You sold %d books and your take home was $%.2f\n", booksSold, totalSalesValue);
 }
 
+int modulo() {
+  
+  int endingDayOfWeek = 0;
+  int daysThatPass = 5;
+  int daysInWeek = 7;
+
+  endingDayOfWeek = daysThatPass % daysInWeek;
+
+  printf("You started on the 1st (0) day of the week, went %d days from this, so it is now the %d day of the week\n", daysThatPass, endingDayOfWeek);
+}
