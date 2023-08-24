@@ -22,3 +22,12 @@ int doWhileLoop() {
   } while (i < 10);
 
 }
+
+int forLoop() {
+  // Write your loop here
+  for (int i = 99; i >=0; i--) {
+     printf("%d bottles of pop on the wall.", i);
+    printf("Take one down and pass it around.");
+    printf("%d bottles of pop on the wall.", i - 1);
+  }
+}
