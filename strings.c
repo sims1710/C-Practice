@@ -49,3 +49,22 @@ int stringConcatenation() {
   strcat(n, c);
   printf("%s", n); 
 }
+
+#include<string.h>
+
+int copyingStrings() {
+  
+  char src[] = "banana";
+  char dst[7];
+  
+  char pan[] = "How vexingly quick daft zebras jump!";
+  int len = strlen(pan) + 1; 
+  char dst2[len];
+ 
+  strcpy(dst, src);
+  printf("%s\n", dst);  
+
+  strcpy(dst2, pan);
+  printf("%s", dst2);
+
+}
