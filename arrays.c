@@ -27,3 +27,8 @@ int usingSizeOf() {
     printf("%f\n", arr[i]);
   }
 }
+
+int multidimensionalArrays() {
+  int arr [9][9];
+  int matrix [3][3] = {{2, 9, 11}, {3, 1, 4}, {8, 3, 1}};
+}
